@@ -169,7 +169,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
             >
               <UserAvatar
                 className="css-5o5its-StyledAvatar e1axh4r50"
-                gravatar={true}
+                gravatar={false}
                 hasTooltip={true}
                 size={28}
                 user={
@@ -194,11 +194,12 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                   gravatarId="foo@example.com"
                   hasTooltip={true}
                   letterId="foo@example.com"
+                  round={true}
                   size={28}
                   style={Object {}}
                   title="Foo Bar"
                   tooltip="Foo Bar (foo@example.com)"
-                  type="gravatar"
+                  type="letter_avatar"
                   uploadPath="avatar"
                 >
                   <Tooltip
@@ -225,11 +226,45 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                         }
                         title="Foo Bar (foo@example.com)"
                       >
-                        <img
-                          onError={[Function]}
-                          onLoad={[Function]}
-                          src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
-                        />
+                        <LetterAvatar
+                          displayName="Foo Bar"
+                          identifier="foo@example.com"
+                          round={true}
+                        >
+                          <Svg
+                            round={true}
+                            viewBox="0 0 120 120"
+                          >
+                            <svg
+                              className="css-1r4mnb9-Svg e1knxa8x0"
+                              viewBox="0 0 120 120"
+                            >
+                              <rect
+                                fill="#315cac"
+                                height="120"
+                                rx="15"
+                                ry="15"
+                                width="120"
+                                x="0"
+                                y="0"
+                              />
+                              <text
+                                fill="#FFFFFF"
+                                fontSize="65"
+                                style={
+                                  Object {
+                                    "dominantBaseline": "central",
+                                  }
+                                }
+                                textAnchor="middle"
+                                x="50%"
+                                y="50%"
+                              >
+                                FB
+                              </text>
+                            </svg>
+                          </Svg>
+                        </LetterAvatar>
                       </span>
                     </StyledBaseAvatar>
                   </Tooltip>
@@ -303,7 +338,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
             >
               <UserAvatar
                 className="css-5o5its-StyledAvatar e1axh4r50"
-                gravatar={true}
+                gravatar={false}
                 hasTooltip={true}
                 size={28}
                 user={
@@ -328,11 +363,12 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                   gravatarId="foo@example.com"
                   hasTooltip={true}
                   letterId="foo@example.com"
+                  round={true}
                   size={28}
                   style={Object {}}
                   title="Foo Bar"
                   tooltip="Foo Bar (foo@example.com)"
-                  type="gravatar"
+                  type="letter_avatar"
                   uploadPath="avatar"
                 >
                   <Tooltip
@@ -359,11 +395,45 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                         }
                         title="Foo Bar (foo@example.com)"
                       >
-                        <img
-                          onError={[Function]}
-                          onLoad={[Function]}
-                          src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
-                        />
+                        <LetterAvatar
+                          displayName="Foo Bar"
+                          identifier="foo@example.com"
+                          round={true}
+                        >
+                          <Svg
+                            round={true}
+                            viewBox="0 0 120 120"
+                          >
+                            <svg
+                              className="css-1r4mnb9-Svg e1knxa8x0"
+                              viewBox="0 0 120 120"
+                            >
+                              <rect
+                                fill="#315cac"
+                                height="120"
+                                rx="15"
+                                ry="15"
+                                width="120"
+                                x="0"
+                                y="0"
+                              />
+                              <text
+                                fill="#FFFFFF"
+                                fontSize="65"
+                                style={
+                                  Object {
+                                    "dominantBaseline": "central",
+                                  }
+                                }
+                                textAnchor="middle"
+                                x="50%"
+                                y="50%"
+                              >
+                                FB
+                              </text>
+                            </svg>
+                          </Svg>
+                        </LetterAvatar>
                       </span>
                     </StyledBaseAvatar>
                   </Tooltip>
@@ -437,7 +507,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
             >
               <UserAvatar
                 className="css-5o5its-StyledAvatar e1axh4r50"
-                gravatar={true}
+                gravatar={false}
                 hasTooltip={true}
                 size={28}
                 user={
@@ -462,11 +532,12 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                   gravatarId="foo@example.com"
                   hasTooltip={true}
                   letterId="foo@example.com"
+                  round={true}
                   size={28}
                   style={Object {}}
                   title="Foo Bar"
                   tooltip="Foo Bar (foo@example.com)"
-                  type="gravatar"
+                  type="letter_avatar"
                   uploadPath="avatar"
                 >
                   <Tooltip
@@ -493,11 +564,45 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                         }
                         title="Foo Bar (foo@example.com)"
                       >
-                        <img
-                          onError={[Function]}
-                          onLoad={[Function]}
-                          src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
-                        />
+                        <LetterAvatar
+                          displayName="Foo Bar"
+                          identifier="foo@example.com"
+                          round={true}
+                        >
+                          <Svg
+                            round={true}
+                            viewBox="0 0 120 120"
+                          >
+                            <svg
+                              className="css-1r4mnb9-Svg e1knxa8x0"
+                              viewBox="0 0 120 120"
+                            >
+                              <rect
+                                fill="#315cac"
+                                height="120"
+                                rx="15"
+                                ry="15"
+                                width="120"
+                                x="0"
+                                y="0"
+                              />
+                              <text
+                                fill="#FFFFFF"
+                                fontSize="65"
+                                style={
+                                  Object {
+                                    "dominantBaseline": "central",
+                                  }
+                                }
+                                textAnchor="middle"
+                                x="50%"
+                                y="50%"
+                              >
+                                FB
+                              </text>
+                            </svg>
+                          </Svg>
+                        </LetterAvatar>
                       </span>
                     </StyledBaseAvatar>
                   </Tooltip>
@@ -571,7 +676,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
             >
               <UserAvatar
                 className="css-5o5its-StyledAvatar e1axh4r50"
-                gravatar={true}
+                gravatar={false}
                 hasTooltip={true}
                 size={28}
                 user={
@@ -596,11 +701,12 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                   gravatarId="foo@example.com"
                   hasTooltip={true}
                   letterId="foo@example.com"
+                  round={true}
                   size={28}
                   style={Object {}}
                   title="Foo Bar"
                   tooltip="Foo Bar (foo@example.com)"
-                  type="gravatar"
+                  type="letter_avatar"
                   uploadPath="avatar"
                 >
                   <Tooltip
@@ -627,11 +733,45 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                         }
                         title="Foo Bar (foo@example.com)"
                       >
-                        <img
-                          onError={[Function]}
-                          onLoad={[Function]}
-                          src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
-                        />
+                        <LetterAvatar
+                          displayName="Foo Bar"
+                          identifier="foo@example.com"
+                          round={true}
+                        >
+                          <Svg
+                            round={true}
+                            viewBox="0 0 120 120"
+                          >
+                            <svg
+                              className="css-1r4mnb9-Svg e1knxa8x0"
+                              viewBox="0 0 120 120"
+                            >
+                              <rect
+                                fill="#315cac"
+                                height="120"
+                                rx="15"
+                                ry="15"
+                                width="120"
+                                x="0"
+                                y="0"
+                              />
+                              <text
+                                fill="#FFFFFF"
+                                fontSize="65"
+                                style={
+                                  Object {
+                                    "dominantBaseline": "central",
+                                  }
+                                }
+                                textAnchor="middle"
+                                x="50%"
+                                y="50%"
+                              >
+                                FB
+                              </text>
+                            </svg>
+                          </Svg>
+                        </LetterAvatar>
                       </span>
                     </StyledBaseAvatar>
                   </Tooltip>
@@ -705,7 +845,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
             >
               <UserAvatar
                 className="css-5o5its-StyledAvatar e1axh4r50"
-                gravatar={true}
+                gravatar={false}
                 hasTooltip={true}
                 size={28}
                 user={
@@ -730,11 +870,12 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                   gravatarId="foo@example.com"
                   hasTooltip={true}
                   letterId="foo@example.com"
+                  round={true}
                   size={28}
                   style={Object {}}
                   title="Foo Bar"
                   tooltip="Foo Bar (foo@example.com)"
-                  type="gravatar"
+                  type="letter_avatar"
                   uploadPath="avatar"
                 >
                   <Tooltip
@@ -761,11 +902,45 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                         }
                         title="Foo Bar (foo@example.com)"
                       >
-                        <img
-                          onError={[Function]}
-                          onLoad={[Function]}
-                          src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
-                        />
+                        <LetterAvatar
+                          displayName="Foo Bar"
+                          identifier="foo@example.com"
+                          round={true}
+                        >
+                          <Svg
+                            round={true}
+                            viewBox="0 0 120 120"
+                          >
+                            <svg
+                              className="css-1r4mnb9-Svg e1knxa8x0"
+                              viewBox="0 0 120 120"
+                            >
+                              <rect
+                                fill="#315cac"
+                                height="120"
+                                rx="15"
+                                ry="15"
+                                width="120"
+                                x="0"
+                                y="0"
+                              />
+                              <text
+                                fill="#FFFFFF"
+                                fontSize="65"
+                                style={
+                                  Object {
+                                    "dominantBaseline": "central",
+                                  }
+                                }
+                                textAnchor="middle"
+                                x="50%"
+                                y="50%"
+                              >
+                                FB
+                              </text>
+                            </svg>
+                          </Svg>
+                        </LetterAvatar>
                       </span>
                     </StyledBaseAvatar>
                   </Tooltip>
@@ -908,7 +1083,7 @@ exports[`AvatarList renders with user avatars 1`] = `
             >
               <UserAvatar
                 className="css-5o5its-StyledAvatar e1axh4r50"
-                gravatar={true}
+                gravatar={false}
                 hasTooltip={true}
                 size={28}
                 user={
@@ -933,11 +1108,12 @@ exports[`AvatarList renders with user avatars 1`] = `
                   gravatarId="foo@example.com"
                   hasTooltip={true}
                   letterId="foo@example.com"
+                  round={true}
                   size={28}
                   style={Object {}}
                   title="Foo Bar"
                   tooltip="Foo Bar (foo@example.com)"
-                  type="gravatar"
+                  type="letter_avatar"
                   uploadPath="avatar"
                 >
                   <Tooltip
@@ -964,11 +1140,45 @@ exports[`AvatarList renders with user avatars 1`] = `
                         }
                         title="Foo Bar (foo@example.com)"
                       >
-                        <img
-                          onError={[Function]}
-                          onLoad={[Function]}
-                          src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
-                        />
+                        <LetterAvatar
+                          displayName="Foo Bar"
+                          identifier="foo@example.com"
+                          round={true}
+                        >
+                          <Svg
+                            round={true}
+                            viewBox="0 0 120 120"
+                          >
+                            <svg
+                              className="css-1r4mnb9-Svg e1knxa8x0"
+                              viewBox="0 0 120 120"
+                            >
+                              <rect
+                                fill="#315cac"
+                                height="120"
+                                rx="15"
+                                ry="15"
+                                width="120"
+                                x="0"
+                                y="0"
+                              />
+                              <text
+                                fill="#FFFFFF"
+                                fontSize="65"
+                                style={
+                                  Object {
+                                    "dominantBaseline": "central",
+                                  }
+                                }
+                                textAnchor="middle"
+                                x="50%"
+                                y="50%"
+                              >
+                                FB
+                              </text>
+                            </svg>
+                          </Svg>
+                        </LetterAvatar>
                       </span>
                     </StyledBaseAvatar>
                   </Tooltip>
@@ -1042,7 +1252,7 @@ exports[`AvatarList renders with user avatars 1`] = `
             >
               <UserAvatar
                 className="css-5o5its-StyledAvatar e1axh4r50"
-                gravatar={true}
+                gravatar={false}
                 hasTooltip={true}
                 size={28}
                 user={
@@ -1067,11 +1277,12 @@ exports[`AvatarList renders with user avatars 1`] = `
                   gravatarId="foo@example.com"
                   hasTooltip={true}
                   letterId="foo@example.com"
+                  round={true}
                   size={28}
                   style={Object {}}
                   title="Foo Bar"
                   tooltip="Foo Bar (foo@example.com)"
-                  type="gravatar"
+                  type="letter_avatar"
                   uploadPath="avatar"
                 >
                   <Tooltip
@@ -1098,11 +1309,45 @@ exports[`AvatarList renders with user avatars 1`] = `
                         }
                         title="Foo Bar (foo@example.com)"
                       >
-                        <img
-                          onError={[Function]}
-                          onLoad={[Function]}
-                          src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
-                        />
+                        <LetterAvatar
+                          displayName="Foo Bar"
+                          identifier="foo@example.com"
+                          round={true}
+                        >
+                          <Svg
+                            round={true}
+                            viewBox="0 0 120 120"
+                          >
+                            <svg
+                              className="css-1r4mnb9-Svg e1knxa8x0"
+                              viewBox="0 0 120 120"
+                            >
+                              <rect
+                                fill="#315cac"
+                                height="120"
+                                rx="15"
+                                ry="15"
+                                width="120"
+                                x="0"
+                                y="0"
+                              />
+                              <text
+                                fill="#FFFFFF"
+                                fontSize="65"
+                                style={
+                                  Object {
+                                    "dominantBaseline": "central",
+                                  }
+                                }
+                                textAnchor="middle"
+                                x="50%"
+                                y="50%"
+                              >
+                                FB
+                              </text>
+                            </svg>
+                          </Svg>
+                        </LetterAvatar>
                       </span>
                     </StyledBaseAvatar>
                   </Tooltip>
