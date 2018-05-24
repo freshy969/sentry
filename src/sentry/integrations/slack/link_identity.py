@@ -53,10 +53,17 @@ class SlackLinkIdentitiyView(BaseView):
             idp = IdentityProvider.objects.get(
                 external_id=integration.external_id,
                 type='slack',
-                organization_id=organization.id,
+                organization_id=0,
             )
         except IdentityProvider.DoesNotExist:
-            raise Http404
+            try:
+                idp = IdentityProvider.objects.get(
+                    external_id=integration.external_id,
+                    type='slack',
+                    organization_id=organization.id,
+                )
+            except IdentityProvider.DoesNotExist:
+                raise Http404
 
         if request.method != 'POST':
             return render_to_response('sentry/auth-link-identity.html', request=request, context={
